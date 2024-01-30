@@ -47,10 +47,10 @@ contract CodeWithJoe is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "CodeWithJoe";
-        symbol = "CWJ";
+        name = "Woahdy";
+        symbol = "WODE";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
+        _totalSupply = 10000000000000000000000000000000;
 
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
